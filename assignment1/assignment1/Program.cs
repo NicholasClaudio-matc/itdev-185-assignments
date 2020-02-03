@@ -10,8 +10,8 @@ namespace assignment1
     {
         static void Main(string[] args)
         {
-            Setup Start = new Setup();
-            Start.ConsoleSetup();
+            Setup Start = new Setup(); //creates intance of Setup class
+            Start.ConsoleSetup(); // Calls method
             Start.Intro();
 
             Game Play = new Game();

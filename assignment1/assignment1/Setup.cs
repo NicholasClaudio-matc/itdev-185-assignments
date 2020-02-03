@@ -13,7 +13,8 @@ namespace assignment1
             ConsoleSetup();
         }
 
-        public void ConsoleSetup()
+        public void ConsoleSetup() // This method adds a title to the window and changes color
+                                   // of text and background 
         {
             Console.Title = "Assignment 1 - Word Game";
             Console.BackgroundColor = ConsoleColor.Blue;

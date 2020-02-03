@@ -8,6 +8,7 @@ namespace assignment1
 {
     class UI
     {
+        // declarations
         string story;
         string adjective;
         string adjective2;
@@ -19,7 +20,7 @@ namespace assignment1
 
 
 
-        public void UserInput()
+        public void UserInput() // method takes user input and assigns it to the appropriate variable
         {
             Console.WriteLine("Type in an adjective.");
             adjective = Console.ReadLine();
@@ -48,16 +49,14 @@ namespace assignment1
             Console.WriteLine("Type in a noun.");
             noun3 = Console.ReadLine();
             Console.Clear();
-
-            //Console.WriteLine("That's great. How about entering a type of liquid?");
-            //liquid2 = Console.ReadLine();
-            //Console.Clear();
         }
 
         
 
         public void Story()
         {
+            //  Assigned variables used in the story variable and then are displayed for the 
+            // user to see.
 
             story = "The " + adjective + " " + adjective2 + " " + noun1 + ", went up the " + liquid + " spout.\n Down came the " + noun2 + " and " + verb + " the "
             + noun1 + " out.\n Out came the " + noun3 + " and dried up all the " + liquid +
