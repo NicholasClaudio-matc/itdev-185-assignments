@@ -10,7 +10,7 @@ namespace assignment1
     {
         static void Main(string[] args)
         {
-            Setup Start = new Setup(); //creates intance of Setup class
+            Setup Start = new Setup(); //creates instance of Setup class
             Start.ConsoleSetup(); // Calls method
             Start.Intro();
 
